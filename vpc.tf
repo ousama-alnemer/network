@@ -1,3 +1,6 @@
+variable "GOOGLE_CREDENTIALS" {
+  type = string
+}
 provider "google" {
   credentials = var.GOOGLE_CREDENTIALS
   project = "tensile-method-265715"

@@ -1,3 +1,9 @@
+provider "google" {
+  credentials = var.GOOGLE_CREDENTIALS
+  project = "tensile-method-265715"
+  region  = "us-central1"
+  zone    = "us-central1-c"
+}
 module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "~> 2.3"

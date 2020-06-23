@@ -8,7 +8,7 @@ module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "~> 2.3"
 
-    project_id   = "<PROJECT ID>"
+    project_id   = "tensile-method-265715"
     network_name = "example-vpc"
     routing_mode = "GLOBAL"
 
